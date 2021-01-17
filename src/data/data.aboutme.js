@@ -1,4 +1,4 @@
-export const PICTURE = require('../assets/_MG_0556 SC.jpg');
+export const PICTURE = require('../assets/matthewobisnar.jpg');
 
 export const ABOUTME = `
 I'm a self-taught graphic designer and developer, and a student at the Institute of Creative Computer Technology, or better known as the ICCT Colleges. 
