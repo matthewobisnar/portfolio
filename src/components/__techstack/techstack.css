@@ -1,0 +1,52 @@
+.app__techstack {
+    background-color: var(--app-techtack-background-color);
+    color: var(--app-content-color);
+    transition: background-color 300ms, color 300ms;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    padding-bottom:40px;
+}
+
+.app__preview-caption {
+    display: inline-block;
+    text-align: center;
+    margin: 40px
+}
+
+.app__image-handler hr {
+    background-color: #eae7dc; height: 1px; border: 0; 
+}
+
+.app__stack_ul {
+    margin: auto;
+    text-align: center;
+}
+
+.app__image-handler {
+    text-align: center;
+}
+
+.app__preview-caption img {
+    width: 75px;
+    transition: all .5s ease-in-out;
+}
+
+.app__preview-caption img:hover {
+    transform: scale(1.2);
+}
+
+.app__img-caption {
+    margin-top: 7px;
+}
+
+.app_section_header {
+    color: var(--app-header-color);
+    transition: color 300ms;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}

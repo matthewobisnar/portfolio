@@ -1,0 +1,172 @@
+.app__myprojects {
+    background-color: var(--app-background-color);
+    transition: background-color 300ms;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: block;
+}
+
+.app__section {
+    margin: auto;
+    max-width: 1280px;
+}
+
+.app__section_header {
+    font-style: normal;
+    color: var(--app-header-color);
+    transition: color 300ms;
+    font-weight: 600;
+    font-size: 60px;
+    padding-top: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.app__project-list {
+    position: relative;
+    text-align: center;
+}
+.app__project-list li {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.app__thumbnail {
+    border: var(--app-border-color);
+    transition: border 300ms;
+    z-index: 1000;
+    border-radius: 1rem;
+    background-color: var(--app-content-thumbnail-background-color);
+    transition: border 300ms, background-color 300ms;
+    min-width: 380px;
+    max-width: 380px;
+    height: 14rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.app__thumbnail img {
+    width: 100%;
+    z-index: 900;
+    height: 100%;
+}
+
+.app__hide {
+    opacity: 0;
+}
+
+.app__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: inherit;
+    border-radius: inherit;
+    opacity: 0;
+    transition: .5s ease;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #161a2378;
+}
+  
+.app__thumbnail:hover .app__overlay {
+    opacity: 1;
+}
+
+.app__category {
+    border: solid 1px #b1b8cd00;
+    padding:20px;
+    position: absolute;
+    transform: translate(9%, 0%);
+    bottom: -40px;
+}
+
+.app__icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: hsl(0deg 0% 79%);
+    margin-right: 10px ;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0.25rem 0.75rem;
+    animation-duration: 2s;
+    cursor: pointer;
+    animation-iteration-count: infinite;
+}
+
+.app__icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.text, .app__btn_menu {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 350px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.app__btn_menu {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 65px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.app__icon:hover {
+    animation-name: bounce-3;
+    animation-timing-function: cubic-bezier(0.25, 0.1, 0.09, 1.56);
+}
+
+.app__content {
+    margin-bottom: 10px;
+}
+
+.app__btn {
+    border-radius: 25px;
+    border: solid 0px white;
+    padding: 10px 25px 10px 25px;
+    background: transparent;
+    z-index: 1000;
+    margin: 5px;
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(45deg, #F6EA7A 50%, white 50%);
+    background-image: linear-gradient(45deg, #F6EA7A 50%, white 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: all 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0.25rem 0.75rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.app__btn:focus {
+    outline: 0;
+}
+
+.app__btn:hover {
+    background-position: 0;
+}
+
+@keyframes bounce-3 {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-10px); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}

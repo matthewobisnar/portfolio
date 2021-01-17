@@ -1,0 +1,30 @@
+/* this theme color will be append to */
+:root {
+    --app-background-color: #fefeff;
+    --app-header-color: #161A23;
+    --app-content-color: #161A23;
+    --app-techtack-background-color: #fffdee;
+    --app-fill-color: #fff;
+    --app-border-color: solid 1px #b1b8cd00;
+    --app-content-thumbnail-background-color: hsl(0deg 0% 93%);
+}
+
+[data-theme="dark"] {
+    --app-background-color: #161A23;
+    --app-header-color: #F6EA7A;
+    --app-techtack-background-color: #161A23;
+    --app-content-color: #ffffff;
+    --app-fill-color: #fff;
+    --app-border-color: solid 1px #282d38;
+    --app-content-thumbnail-background-color: #ffffff;
+}
+
+[data-theme="light"] {
+    --app-techtack-background-color: #fffdee;
+    --app-background-color: #fefeff;
+    --app-header-color: #161A23;
+    --app-content-color: #161A23;
+    --app-fill-color: #161A23;
+    --app-border-color: solid 1px #b1b8cd00;
+    --app-content-thumbnail-background-color: hsl(0deg 0% 93%);
+}

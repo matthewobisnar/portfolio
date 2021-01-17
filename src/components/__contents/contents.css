@@ -1,0 +1,107 @@
+.app__contents {
+    color: var(--app-content-color);
+    background-color: var(--app-background-color);
+    transition: background-color 300ms, color 300ms;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.app__section {
+    margin: auto;
+    max-width: 1980px;
+}
+
+.app_section_header {
+    color: var(--app-header-color);
+    transition: color 300ms;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    padding-top: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.app__contents-list {
+    position: relative;
+    text-align: center;
+}
+.app__contents-list li {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.app__thumbnail{
+    border: solid 1px #b1b8cd00;
+    z-index: 1000;
+    border-radius: 1rem;
+    background-color: var(--app-content-thumbnail-background-color);
+    transition: background-color 300ms;
+    max-width: 480px;
+    height: 15rem;
+    text-align: left;
+    color: #161A23;
+    margin-left: 25px;
+}
+
+.app__thumbnail h1 {
+    padding: 20px;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.text {
+    z-index: 10;
+}
+
+.app__thumbnail p {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: solid #c1cbce 1px;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.app__thumbnail a {
+    text-decoration: none;
+    color:#32475e;
+}
+
+.app__thumbnail .date {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.app__category {
+    border: solid 1px #b1b8cd00;
+    padding:20px;
+    position: absolute;
+    transform: translate(9%, 0%);
+    bottom: 190px;
+    left: -25px
+}
+
+.app__icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(0deg 0% 79%);
+    margin-right: 10px ;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 0.25rem 0.75rem; */
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.app__icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}

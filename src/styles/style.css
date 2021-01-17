@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; }
+.app__row { display: inline-grid; min-height: 100%;}
+.app__border_right { border-right: solid 1px #cccccc }
+
+[class*="app__col-"] { 
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+
+[class*="app__column-"] {
+    display: grid;
+    padding: 15px; 
+    position: relative;
+}
+.app__column-header {
+    float: left;
+    padding: 15px; 
+    position: relative;
+}
+
+.app__column-header {
+    width: 50% !important
+}
+/* [class*="app__h-100"] { height: 90vh !important; } */
+[class*="app__center-header"] {
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+}
+
+[class*="app__center-grid"] {
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  text-align: center;
+}
+
+.app__col-1 { width: 8.33% !important; }
+.app__col-2 { width: 16.66% !important; }
+.app__col-3 { width: 25% !important; }
+.app__col-4 { width: 33.33% !important; }
+.app__col-5 { width: 41.66% !important;}
+.app__col-6 { width: 50% !important; }
+.app__col-7 { width: 58.33% !important; }
+.app__col-8 { width: 66.66% !important;}
+.app__col-9 { width: 75% !important; }
+.app__col-10 { width: 83.33% !important; }
+.app__col-11 { width: 91.66% !important; }
+.app__col-12 { width: 100% !important; }
+
+@media screen and (max-width: 995px) {
+    .app__col-6, .app__column-header {
+        width: 100% !important;
+    }   
+}
+
+.app__ismobile {
+    font-style: normal;
+    font-size: 36px !important;
+}
+
+.app__istablet {
+    font-style: normal;
+    font-size: 55px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #262b35; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #474853;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
