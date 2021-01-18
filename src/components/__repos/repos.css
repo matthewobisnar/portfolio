@@ -76,11 +76,13 @@ body * {
 .entry .title h3 {
   margin: 0;
   font-size: 100%;
+  color: var(--app-content-color) !important;
 }
 
 .entry .title p {
   margin: 0;
   font-size: 90%;
+  color: var(--app-content-color) !important;
 }
 
 .entry .body {
