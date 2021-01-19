@@ -12,52 +12,18 @@
                       </div>
                 </div>
 
-                <div class="entry">
+                <div class="entry" v-for="repository in repositories" :key="repository.id">
                     <div class="title">
-                        <h3>2014 - Present</h3>
-                        <p>Title, Company</p>
+                        <h3>{{repository.title_h2}}</h3>
+                        <p>{{repository.title_p}}</p>
                       </div>
                       <div class="body">
                         <div class="card">
-                            <p>Hello world</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="entry">
-                    <div class="title">
-                        <h3>2014 - Present</h3>
-                        <p>Title, Company</p>
-                      </div>
-                      <div class="body">
-                        <div class="card">
-                            <p>Hello world</p>
-                        </div>
-                      </div>
-                </div>
-                
-                <div class="entry">
-                    <div class="title">
-                        <h3>2014 - Present</h3>
-                        <p>Title, Company</p>
-                      </div>
-                      <div class="body">
-                        <div class="card">
-                            <p>Hello world</p>
+                            <p>{{repository.body}}</p>
                         </div>
                       </div>
                 </div>
 
-                <div class="entry">
-                    <div class="title">
-                        <h3>2014 - Present</h3>
-                        <p>Title, Company</p>
-                      </div>
-                      <div class="body">
-                        <div class="card">
-                            <p>Hello world</p>
-                        </div>
-                      </div>
-                </div>
             </div>
         </div>
     </div>
