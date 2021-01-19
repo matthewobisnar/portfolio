@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="entry" v-for="repository in repositories" :key="repository.id">
-                    <div class="title">
+                    <div class="title list">
                         <h3>{{repository.title_h2}}</h3>
                         <p>{{repository.title_p}}</p>
                       </div>
