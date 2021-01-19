@@ -10,7 +10,7 @@
                         <h1 class="app__h1_header" :style="[isLaptop, isTablet, isMobile]">Matthew Bisnar</h1>
                         <p class="app__p_subheader">Web Developer & Designer</p>
                         <div>
-                            <button class="app__btn_outline_light" v-scroll-to="{el: '#app__aboutme'}">My Projects</button>
+                            <button class="app__btn_outline_light" v-scroll-to="{el: '#app__myprojects'}">My Projects</button>
                             <button class="app__btn_outline_light" v-scroll-to="{el: '#app__techstack'}">Tech Stack</button>
                         </div>
                     </div>
