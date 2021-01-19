@@ -1,5 +1,5 @@
 <template>
-    <div class="app__timeline">
+    <div id="app__timeline" class="app__timeline">
         <div class="app__timeline-container">
             <div class="timeline">
               

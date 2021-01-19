@@ -37,6 +37,7 @@ export default {
                 {id: '#app__techstack'},
                 {id: '#app__myprojects'},
                 {id: '#app__contents'},
+                {id: '#app__timeline'},
                 {id: '#app__footer'},
             ]
         }
