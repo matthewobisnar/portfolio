@@ -39,21 +39,21 @@ export const TECHSTACK = [
         name:'Vue',
         icon: require('../assets/icons/vue.png')
     },
-    {
-        id: 8,
-        name:'Vuetify',
-        icon: require('../assets/icons/vuetify.png')
-    },
+    // {
+    //     id: 8,
+    //     name:'Vuetify',
+    //     icon: require('../assets/icons/vuetify.png')
+    // },
     {
         id: 9,
         name:'Wordpress',
         icon: require('../assets/icons/wordpress.png')
     },
-    {
-        id: 10,
-        name:'Wppb',
-        icon: require('../assets/icons/wppb.png')
-    },
+    // {
+    //     id: 10,
+    //     name:'Wppb',
+    //     icon: require('../assets/icons/wppb.png')
+    // },
     {
         id: 11,
         name:'Php',
