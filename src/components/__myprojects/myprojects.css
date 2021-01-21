@@ -164,6 +164,13 @@
     background-position: 0;
 }
 
+@media screen and (max-width: 430px) {
+    .app__thumbnail {
+        min-width: 350px;
+        max-width: 350px;
+    } 
+}
+
 @keyframes bounce-3 {
     0%   { transform: translateY(0); }
     30%  { transform: translateY(-10px); }
