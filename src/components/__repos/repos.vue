@@ -16,9 +16,7 @@
                     <div class="title list">
                         <h3>{{repository.language}}</h3>
                         <p>
-                            <a href="#">
-                                <small>Branch: {{repository.default_branch}}</small>
-                            </a>    
+                            <small>Branch: {{repository.default_branch}}</small>
                         </p>
 
                       </div>
