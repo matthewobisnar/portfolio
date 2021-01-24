@@ -1,7 +1,7 @@
 import { SOCIAL, ABOUTME, PICTURE } from '../../data/data.aboutme.js';
 import { TECHSTACK } from '../../data/data.techstack.js';
 import { PROJECTS } from '../../data/data.myproject.js';
-import {CONTENTS} from '../../data/data.contents.js';
+import { CONTENTS } from '../../data/data.contents.js';
 
 import { mapActions, mapGetters } from 'vuex';
 import {

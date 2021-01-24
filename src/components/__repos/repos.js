@@ -1,8 +1,9 @@
 import { resizerMixins } from '../../Store/Resizer/ResizerMixins.js';
 import { myBioMixins } from '../../Store/MyBio/MyBioMixins.js';
+import { Repositories } from '../../Store/Repositories/RepositoryMixins.js';
 
 export default {
-    mixins: [resizerMixins, myBioMixins],
+    mixins: [resizerMixins, myBioMixins, Repositories],
     data(){
         return {
             repositories:[

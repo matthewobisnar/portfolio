@@ -12,14 +12,19 @@
                       </div>
                 </div>
 
-                <div class="entry list-entry" v-for="repository in repositories" :key="repository.id">
+                <div class="entry list-entry" v-for="repository in GET_REPOSITORIES" :key="repository.id">
                     <div class="title list">
-                        <h3>{{repository.title_h2}}</h3>
-                        <p>{{repository.title_p}}</p>
+                        <h3>{{repository.language}}</h3>
+                        <p>
+                            <a href="#">
+                                <small>Branch: {{repository.default_branch}}</small>
+                            </a>    
+                        </p>
+
                       </div>
                       <div class="body">
                         <div class="card">
-                            <p>{{repository.body}}</p>
+                            <p><a :href="repository.clone_url">{{repository.name}}</a></p>
                         </div>
                       </div>
                 </div>
