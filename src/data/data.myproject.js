@@ -124,7 +124,7 @@ export const PROJECTS = [
             {
                 id: 0,
                 name: 'soon',
-                link: '#'
+                link: 'https://github.com/matthewobisnar/portfolio'
             },
             {
                 id: 1,
@@ -166,6 +166,37 @@ export const PROJECTS = [
             {
                 id: 1,
                 icon: require('../assets/icons/jquery-512.png') 
+            },
+        ]
+    },
+    {
+        id: 6,
+        title: 'Coupon',
+        image: require('../assets/coupon.png'),
+        links: [
+            {
+                id: 0,
+                name: 'Code',
+                link: 'https://github.com/matthewobisnar/coupon'
+            },
+            {
+                id: 1,
+                name: 'Live',
+                link: 'https://matthewobisnar.github.io/coupon/'
+            }
+        ],
+        categories: [
+            {
+                id: 0,
+                icon: require('../assets/icons/bootstrap.png')   
+            },
+            {
+                id: 1,
+                icon: require('../assets/icons/jquery-512.png') 
+            },
+            {
+                id: 2,
+                icon: require('../assets/icons/sass.png') 
             },
         ]
     },

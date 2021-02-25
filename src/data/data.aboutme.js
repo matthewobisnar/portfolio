@@ -3,9 +3,7 @@ export const PICTURE = require('../assets/matthewobisnar.jpg');
 export const ABOUTME = `
 I'm a self-taught graphic designer and developer, and a student at the Institute of Creative Computer Technology, or better known as the ICCT Colleges. 
 <br/><br/>
-I mainly work with designing, frontend web and desktop development, but I also know way arround PHP backend development and databasing. To know more about my field (Click me). And what I can do (Click me). I Love reading documentations and searching technology trends, where I spend most of the time on it. It gives me better ideas and inspirations for my future projects.
-<br/><br/>
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+I mainly work with designing, frontend web and desktop development, but I also know way arround PHP backend development and databasing. I Love reading documentations and searching technology trends, where I spend most of the time on it. It gives me better ideas and inspirations for my future projects.
 `;
 
 export const SOCIAL = [
