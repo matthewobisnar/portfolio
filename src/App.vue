@@ -11,7 +11,6 @@
 </template>
 
 <script>
-
 import Header from './components/__header/Header.vue';
 import AboutMe from './components/__aboutme/Aboutme.vue';
 import TechStack from './components/__techstack/Techtack.vue';
@@ -34,9 +33,7 @@ export default {
   name: 'App',
   components
 }
-
 </script>
-
 <style>
     @import './styles/__themes/themes.css';
     @import './styles/style.css';

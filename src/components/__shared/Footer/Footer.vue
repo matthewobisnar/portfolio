@@ -1,6 +1,6 @@
 <template>
     <div id="app__footer" class="app__footer">
-        <p>Code and designed with &#10084; by me  {{new Date().getFullYear()}}</p>
+        <p>Coded and designed with &#10084; by me  {{new Date().getFullYear()}}</p>
     </div>
 </template>
 <style scoped>

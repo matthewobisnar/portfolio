@@ -1,53 +1,32 @@
 <template>
-    <div class="app__timeline">
+    <div id="app__timeline" class="app__timeline">
         <div class="app__timeline-container">
             <div class="timeline">
+              
                 <div class="entry">
                     <div class="title">
-                        <h3>2014 - Present</h3>
-                        <p>Title, Company</p>
+                        <h2>Github Repository</h2>
                       </div>
                       <div class="body">
-                        <div>
-                            <p>Hello world</p>
-                        </div>
+                        <div></div>
                       </div>
                 </div>
-                <div class="entry">
-                    <div class="title">
-                        <h3>2014 - Present</h3>
-                        <p>Title, Company</p>
+
+                <div class="entry list-entry" v-for="repository in GET_REPOSITORIES" :key="repository.id">
+                    <div class="title list">
+                        <h3>{{repository.language}}</h3>
+                        <p>
+                            <small>Branch: {{repository.default_branch}}</small>
+                        </p>
+
                       </div>
                       <div class="body">
-                        <div>
-                            <p>Hello world</p>
-                        </div>
-                      </div>
-                </div>
-                
-                <div class="entry">
-                    <div class="title">
-                        <h3>2014 - Present</h3>
-                        <p>Title, Company</p>
-                      </div>
-                      <div class="body">
-                        <div>
-                            <p>Hello world</p>
+                        <div class="card">
+                            <p><a :href="repository.clone_url">{{repository.name}}</a></p>
                         </div>
                       </div>
                 </div>
 
-                <div class="entry">
-                    <div class="title">
-                        <h3>2014 - Present</h3>
-                        <p>Title, Company</p>
-                      </div>
-                      <div class="body">
-                        <div>
-                            <p>Hello world</p>
-                        </div>
-                      </div>
-                </div>
             </div>
         </div>
     </div>
