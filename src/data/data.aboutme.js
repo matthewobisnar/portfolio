@@ -1,9 +1,9 @@
 export const PICTURE = require('../assets/matthewobisnar.jpg');
 
 export const ABOUTME = `
-I'm a self-taught graphic designer and developer, and a student at the Institute of Creative Computer Technology, or better known as the ICCT Colleges. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat dui vitae ipsum rutrum, nec maximus quam posuere. In hac habitasse platea dictumst. Nulla id nisi at nibh tempus aliquet eu eu diam. Sed condimentum sem ut ante facilisis, a mattis nibh egestas. Quisque efficitur pharetra metus, in feugiat ligula varius vitae. Vestibulum iaculis orci ante, nec laoreet sapien molestie sit amet. Nulla tempus, nibh a pretium aliquam, libero metus interdum ex, sed tincidunt erat nisi eu nunc. Duis eleifend, enim eget maximus pretium, justo elit tincidunt arcu, ac suscipit nunc felis nec elit. Nam ultrices quam lectus, quis feugiat mauris venenatis et. Nulla lacus arcu, dictum quis nisl ut, interdum maximus tortor. Nam sed magna pellentesque, pharetra dolor vel, varius massa.
 <br/><br/>
-I mainly work with designing, frontend web and desktop development, but I also know way arround PHP backend development and databasing. I Love reading documentations and searching technology trends, where I spend most of the time on it. It gives me better ideas and inspirations for my future projects.
+Sed condimentum quam non lectus congue, vel mattis urna accumsan. Nam tristique quis ipsum nec varius. Sed vitae rutrum orci. Nam massa neque, elementum ac dignissim et, cursus quis nisl. Quisque posuere tempor orci, sit amet imperdiet eros tristique quis. Donec nec nisi eu massa auctor facilisis semper sit amet nibh. Duis nec velit at metus iaculis rhoncus.
 `;
 
 export const SOCIAL = [
